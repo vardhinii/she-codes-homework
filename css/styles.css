@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap");
+
+:root {
+  --primary-color: #f1faee;
+  --secondary-color: #bbadff;
+  --link-color: #757bc8;
+  --shadow: #757bc8 0px 8px 10px 0px;
+  --heading: "Fredoka One", cursive;
+}
+
+* {
+  font-family: var(--heading);
+}
+h1,
+h2,
+h3,
+h5 {
+  text-align: center;
+  font-family: var(--heading);
+  padding-top: 1vw;
+}
+
+body {
+  background-color: var(--primary-color) !important;
+}
+
+nav {
+  background-color: var(--secondary-color) !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  position: fixed !important;
+  z-index: 1;
+}
+
+.navbar-brand {
+  font-family: "Comforter Brush", cursive !important;
+  text-transform: lowercase;
+  font-weight: bolder;
+  font-size: 35px !important;
+  padding-left: 20px;
+}
+
+.active {
+  text-decoration: underline !important;
+  text-decoration-color: var(--primary-color) !important;
+  text-decoration-style: solid !important;
+}
+
+.navbar-links:hover {
+  text-decoration: underline !important;
+  text-decoration-color: var(--primary-color) !important;
+  text-decoration-style: solid !important;
+  transition: ease-in-out !important;
+}
+
+h1.start,
+h3.start {
+  padding-top: 80px;
+}
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.info p {
+  font-size: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2vw;
+  margin: 2vw;
+  background-color: var(--secondary-color);
+  box-shadow: var(--shadow);
+  margin-bottom: 30px !important;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 430px;
+}
+
+section {
+  margin-bottom: 5vw !important;
+}
+
+.education {
+  margin: 2vw;
+  padding: 2vw;
+  padding-bottom: 0;
+  background-color: var(--secondary-color) !important;
+  box-shadow: var(--shadow);
+  margin-top: 5vw !important;
+}
+
+.hobbies {
+  margin: 2vw;
+  padding: 2vw;
+  padding-bottom: 0;
+  background-color: var(--secondary-color) !important;
+  box-shadow: var(--shadow);
+  margin-top: 5vw !important;
+}
+
+a {
+  text-transform: uppercase;
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.buttons,
+.backtohome {
+  display: flex;
+  justify-content: center;
+}
+
+.about,
+.contact,
+.back {
+  margin: 2vw;
+  padding: 0.5vw;
+}
+
+.contact1 {
+  text-transform: lowercase !important;
+  color: var(--link-color) !important;
+}
+
+button {
+  border-radius: 20px !important;
+  border-width: 0;
+  padding: 2vw !important;
+  background-color: var(--secondary-color);
+}
+
+#contact {
+  margin-top: 100px !important;
+}
+
+.row {
+  margin-top: 10vw !important;
+}
+
+.row button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col {
+  padding-top: 2vw !important;
+  text-align: justify;
+  padding: 0.5vw;
+}
+
+.container {
+  padding-bottom: 20px;
+}
+
+.card {
+  margin-left: auto;
+  margin-right: auto;
+}
